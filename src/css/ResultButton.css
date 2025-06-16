@@ -1,0 +1,25 @@
+.result-button-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+
+.result-button {
+  padding: 1.3rem 2.6rem;
+  background: linear-gradient(to right, #286192, #69afff);
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-size: 1.3rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0 4px 18px 0 rgba(40, 97, 146, 0.18), 0 1.5px 6px 0 rgba(40, 97, 146, 0.12);
+}
+
+.result-button:hover {
+  transform: scale(1.02);
+  
+}

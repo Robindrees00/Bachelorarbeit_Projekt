@@ -1,0 +1,70 @@
+/* Phase3View.css */
+
+.phase3-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 40px;
+  min-height: 100vh;
+  background-color: #242424;
+}
+
+.phase3-title {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.phase3-divider {
+  width: 100%;
+  height: 1px;
+  background-color: #87CEEB;
+  border: none;
+  margin: 1rem 0;
+}
+
+/* Du hast bereits diesen Stil für die Card */
+.optimized-card {
+  background-color: #1a1a1a;
+  border: 1px solid #87CEEB;
+  border-radius: 10px;
+  color: #ffffff;
+  padding: 2rem;
+margin: 2rem auto 0 auto;
+  width: 90%;
+  max-width: 900px;
+  box-shadow: 0 0 8px rgba(135, 206, 235, 0.2);
+  overflow-wrap: break-word;
+  overflow-x: auto;
+}
+
+.optimized-card pre {
+  color: white;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  overflow-x: auto;
+  overflow-y: auto;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
+
+.phase3-section-header.blue {
+  color: #87CEEB;
+  font-weight: bold;
+  margin-top: 2rem;
+}
+
+.phase3-list {
+  list-style-type: disc;
+  padding-left: 2rem;
+  margin-top: 0.5rem;
+}
+
+.phase3-subtext {
+  color: #ccc;
+  font-size: 0.9rem;
+  margin: -0.5rem 0 1rem 0.5rem;
+  font-style: italic;
+}
+

@@ -1,0 +1,93 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+  
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  background-color: #242424;
+  color: #ffffff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* ✅ erlaubt flexibles Wachsen */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: #1a1a1a;
+  padding: 0.5em 1em; /* Reduziertes Padding */
+  border-bottom: 1px solid #87CEEB; /* Babyblau */
+  z-index: 1000;
+}
+
+.logos {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 30px; /* Kleinere Logos */
+  height: 30px; /* Kleinere Logos */
+  margin-right: 0.5em; /* Weniger Abstand zwischen den Logos */
+}
+
+.menu {
+  margin-left: 1em; /* Abstand zwischen Logos und Menü */
+}
+
+.menu ul {
+  list-style: none;
+  display: flex;
+  gap: 1em;
+  margin: 0;
+  padding: 0;
+}
+
+.menu a {
+  color: #87CEEB; /* Babyblau */
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.menu a:hover {
+  color: #ffffff;
+}
+
+

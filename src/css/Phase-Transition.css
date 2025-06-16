@@ -1,0 +1,32 @@
+/* Langsamer Slide-Out für Phase 1 */
+.phase1-exit {
+  animation: slideLeftOut 1.2s ease forwards;
+}
+
+/* Langsamer Slide-In für nur Results (linke Seite von Phase 2) */
+.results-container.phase2-enter {
+  animation: slideRightIn 1.2s ease forwards;
+  opacity: 0;
+}
+
+@keyframes slideLeftOut {
+  0% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(-70%);
+    opacity: 0;
+  }
+}
+
+@keyframes slideRightIn {
+  0% {
+    transform: translateX(20%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+}
